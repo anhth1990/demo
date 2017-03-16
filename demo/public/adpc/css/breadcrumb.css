@@ -1,0 +1,94 @@
+/* Page breadcrumb */
+.page-bar {
+  padding: 0px;
+  background-color: #f7f7f7;
+  margin-bottom: 25px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+.page-bar:before, .page-bar:after {
+  content: " ";
+  display: table;
+}
+.page-bar:after {
+  clear: both;
+}
+.page-bar .page-breadcrumb {
+  display: inline-block;
+  float: left;
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+}
+.page-bar .page-breadcrumb > li {
+  display: inline-block;
+}
+.ie8 .page-bar .page-breadcrumb > li {
+  margin-right: 1px;
+}
+.page-bar .page-breadcrumb > li > a,
+.page-bar .page-breadcrumb > li > span {
+  color: #888;
+  font-size: 14px;
+  text-shadow: none;
+}
+.page-bar .page-breadcrumb > li > i {
+  color: #aaa;
+  font-size: 14px;
+  text-shadow: none;
+}
+.page-bar .page-breadcrumb > li > i[class^="icon-"],
+.page-bar .page-breadcrumb > li > i[class*="icon-"] {
+  color: gray;
+}
+.page-bar .page-toolbar {
+  display: inline-block;
+  float: right;
+  padding: 0;
+}
+.page-bar .page-toolbar .btn-fit-height {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  -o-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.page-md .page-bar .page-toolbar .btn-fit-height {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  box-shadow: none !important;
+}
+.page-container-bg-solid .page-bar {
+  position: relative;
+  padding: 0px 20px;
+  background-color: #ffffff;
+  margin: -25px -20px 0 -20px;
+}
+.page-container-bg-solid .page-bar .page-breadcrumb {
+  padding: 11px 0;
+}
+.page-container-bg-solid .page-bar .page-breadcrumb > li > a,
+.page-container-bg-solid .page-bar .page-breadcrumb > li > span {
+  color: #888;
+}
+.page-container-bg-solid .page-bar .page-breadcrumb > li > i {
+  color: #aaa;
+}
+.page-container-bg-solid .page-bar .page-breadcrumb > li > i[class^="icon-"],
+.page-container-bg-solid .page-bar .page-breadcrumb > li > i[class*="icon-"] {
+  color: #8c8c8c;
+}
+.page-container-bg-solid .page-bar .page-toolbar {
+  padding: 6px 0;
+}
+.page-container-bg-solid .page-bar .page-toolbar .btn {
+  margin-top: -2px;
+}
+.page-container-bg-solid .page-bar .page-toolbar .btn.btn-sm {
+  margin-top: 0px;
+}
